@@ -1,0 +1,45 @@
+img{
+    padding-bottom: 40px;
+    padding-left: 60px;
+
+    
+}
+
+table{
+    
+   
+    padding-top: 30px;
+    padding-right: 100px;
+    
+    padding-bottom: 30px;
+   background: white;
+     width: 50%;
+    height: 100%;
+    position:relative;
+    align-self:center;
+    box-decoration-break:clone;
+    margin-right: inherit;
+    border-radius: 30px;
+    
+}
+
+
+body{
+    padding-top: 150px;
+    padding-left: 330px;
+  background-size:cover;
+   background-color:darkgrey;
+   
+}
+
+Button{
+ 
+        margin: 10px 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;  
+    
+}
+    
+

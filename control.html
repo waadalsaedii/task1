@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+        <script> 
+   function show_value1(x)
+{
+ document.getElementById("slider_value1").innerHTML=x;
+} 
+function show_value2(x)
+{
+ document.getElementById("slider_value2").innerHTML=x;
+} 
+            function show_value3(x)
+{
+ document.getElementById("slider_value3").innerHTML=x;
+} 
+            
+                        function show_value4(x)
+{
+ document.getElementById("slider_value4").innerHTML=x;
+} 
+            
+                        function show_value5(x)
+{
+ document.getElementById("slider_value5").innerHTML=x;
+} 
+            
+                        function show_value6(x)
+{
+ document.getElementById("slider_value6").innerHTML=x;
+}
+            
+   </script>
+        
+        
+       
+     </head>
+    <body>
+      
+     
+      
+     <table>
+         
+         <form action="control.php" method="post">
+           <tr><th> <img src="photo.jpg" alt="Girl in a jacket" width="300" height="50" ></th></tr>
+         <tr> <th><b>engine 1 </b>  </th> 
+<th><input type="range" min="0" max="180" step="1" name="sld1" value="0" onchange="show_value1(this.value)"> 
+    </th> <th><span id="slider_value1" style="color:black;font-weight:bold; text-align:center"></span></th> </tr>
+         
+         
+        <tr> <th><b>engine 2 </b></th>
+<th> <input type="range" min="0" max="180" step="1" name="sld2" value="0" onchange="show_value2(this.value)"> 
+     </th><th><span id="slider_value2" style="color:black;font-weight:bold; text-align:center"></span></th> </tr>
+         
+         
+        
+        <tr> <th><b>engine 3 </b>  </th>
+ <th> <input type="range" min="0" max="180" step="1" name="sld3" value="0" onchange="show_value3(this.value)"> 
+    </th><th><span id="slider_value3" style="color:black;font-weight:bold; text-align:center"></span></th> </tr>
+         
+        
+         
+        <tr> <th><b>engine 4 </b> </th>
+<th> <input type="range" min="0" max="180" step="1" name="sld4" value="0" onchange="show_value4(this.value)"> 
+     </th> <th><span id="slider_value4" style="color:black;font-weight:bold; text-align:center"></span></th> </tr>
+         
+         
+
+    <tr> <th><b>engine 5 </b> </th>
+<th> <input type="range" min="0" max="180" step="1" name="sld5"value="0" onchange="show_value5(this.value)"> 
+        </th> <th><span id="slider_value5" style="color:black;font-weight:bold; text-align:center"></span></th>
+        
+         
+        
+       
+         <tr> <th><b>engine 6 </b></th>
+<th> <input type="range" min="0" max="180" step="1" name="sld6" value="0" onchange="show_value6(this.value)"> 
+             </th> <th> <span id="slider_value6" style="color:black;font-weight:bold; text-align:center"></span></th> </tr>
+         <tr><th></th></tr><tr><th></th></tr><tr><th></th></tr><tr><th></th></tr>
+         <tr><th><input type="submit" name ="save" value="save" ></th><th><input type="submit" value ="run"  name = "run"></th></tr>
+      </form>
+       </table>
+          
+       
+         
+    </body>
+    </html>
